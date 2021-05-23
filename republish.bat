@@ -1,0 +1,1 @@
+npx version-select && npm publish && npm uninstall -g @yuyaryshev/simple_cli && npm install -g @yuyaryshev/simple_cli && simple_cli

@@ -1,0 +1,35 @@
+{
+    "name": "@yuyaryshev/simple_cli",
+    "version": "1.0.2",
+    "private": false,
+    "type": "module",
+    "description": "A very simple precompiler written in typescript. With it you can make a dynamically generated blocks in your code.",
+    "keywords": [
+        "simple_cli",
+        "simple",
+        "cli"
+    ],
+    "main": "./bin/index.js",
+    "bin": {
+        "simple_cli": "./bin/index.js"
+    },
+    "files": [
+        ".gitignore",
+        "package.json",
+        "LICENSE",
+        "bin/**/*.js",
+        "lib/**/*.js",
+        "readme.md"
+    ],
+    "scripts": {
+        "start": "node bin/index.js"
+    },
+    "author": "Yuri Yaryshev",
+    "license": "Unlicense",
+    "homepage": "https://github.com/yuyaryshev/simple_cli",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yuyaryshev/simple_cli"
+    },
+    "plainDependencies": true
+}
